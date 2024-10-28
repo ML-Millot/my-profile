@@ -1,0 +1,88 @@
+/* Colors and fonts */
+body {
+    background-color: white;
+    color: rosybrown;
+    font-family: Britannic;
+}
+h1 {
+    font-weight: 800;
+    font-size: 35px;
+}
+a {
+    text-decoration: none;
+    color: sandybrown;
+}
+a:hover {
+    color: indianred;
+}
+h2 {
+    color: saddlebrown;
+}
+img {
+    width: 15%;
+    height: 15%;
+}
+
+/* Custom design with class */
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+    .container {
+        width: 600px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 400px;
+    }
+}
+
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 60px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.btn-orange {
+    background-color: sandybrown;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 4px;
+}
+.btn-orange :hover {
+    background-color: indianred;
+    color: white;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+.list-inline i {
+    font-size: 40px;
+}
+#introduction p {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
